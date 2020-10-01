@@ -1,13 +1,13 @@
 # GreenClothaWay
 
-## prerequisites
+## Prerequisites
 `python >= 3.6`
 
 `pip3 lts`
 
 `python-virtualenv`
 
-## preperation
+## Preperation
 create a virtual environment and update pip and wheel
 ```
 python3 -m venv <venvname>
@@ -16,13 +16,13 @@ pip install -U pip
 pip install -U wheel
 ```
 
-## installation
-install package. one can find the releases [here](https://github.com/GreenClothaWay/Blog/tree/master/release) 
+## Installation
+install package. one can find the releases [**here**](https://github.com/GreenClothaWay/Blog/tree/master/release) 
 ```
 pip install greenclothaway-<release_version>-py3-none-any.whl
 ```
 
-## configuration
+## Configuration
 ```
 mv <venvname>/lib/python3.8/site-packages/website/settings.py.sample <venvname>/lib/python3.8/site-packages/website/settings.py
 ```
@@ -52,5 +52,5 @@ manage.py runserver
 
 
 
-if you want to run this application on a productive server youll have to set up a webserver and configure it according to djangos how to.
+if you want to run this application on a productive server youll have to set up a web server and configure it according to djangos how to.
 but thats on you dude!
